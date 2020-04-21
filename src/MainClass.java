@@ -1,6 +1,10 @@
 public class MainClass {
-  private int class_number=20;
-  public int getClassNumber (int class_number){
-    return class_number;
+  public String getClassString(String class_string) {
+    return class_string;
+  }
+
+  private int class_string(String hello) {
+    System.out.println(hello);
+    return 0;
   }
 }
